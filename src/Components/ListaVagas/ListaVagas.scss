@@ -1,0 +1,26 @@
+.lista-vagas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 3rem;
+	gap: 2rem;
+	&-item {
+		display: flex;
+		justify-content: space-between;
+		width: 45%;
+		height: 200px;
+		border: 1px solid black;
+		border-radius: 20px;
+		padding: 1rem;
+		gap: 0 1rem;
+		box-shadow: 0px 0px 8px 9px #c5bebe;
+		&-wrapper {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.align-right p {
+			text-align: end;
+		}
+	}
+}

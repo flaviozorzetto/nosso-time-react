@@ -1,0 +1,48 @@
+.formulario {
+	margin-top: 2rem;
+
+	input,
+	textarea {
+		border: 1px solid black;
+		resize: none;
+	}
+
+	label {
+		margin-top: 1rem;
+	}
+
+	&-submit {
+		padding: 1rem;
+		background-color: white;
+		border: 1px solid black;
+		border-radius: 6px;
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.1);
+		}
+	}
+}
+
+.form-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 2rem;
+	gap: 2rem;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 2rem;
+
+	h2 {
+		text-transform: uppercase;
+		text-decoration: underline;
+		text-align: center;
+	}
+}

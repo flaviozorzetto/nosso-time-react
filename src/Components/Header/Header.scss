@@ -1,0 +1,29 @@
+.top-header {
+	height: 100px;
+	border-bottom: 1px solid black;
+}
+
+.container {
+	nav {
+		height: 100%;
+	}
+}
+
+.nav-list {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.nav-list .nav-item .nav-link {
+	transition: color 0.3s;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+
+	&:hover {
+		color: rgb(172, 6, 172);
+	}
+}
